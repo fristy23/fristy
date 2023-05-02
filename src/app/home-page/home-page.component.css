@@ -1,0 +1,25 @@
+.first{
+    width: 100vw;
+    height: 99vh;
+    background-image:url("/assets/first.jpg") ;
+    background-size:contain;
+    box-sizing: border-box;
+  
+    
+}
+#sec{
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+}
+.second{
+    height: 30vh;
+    width: 30vw;
+   
+   margin-left: 700px;
+}
+.third{
+    /* height: 100px;
+    width: 200px;
+    background-color: aqua; */
+}
