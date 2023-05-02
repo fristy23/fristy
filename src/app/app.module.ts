@@ -15,14 +15,6 @@ import { HomeComponent } from './home/home.component';
 import { BrandsComponent } from './brands/brands.component';
 import { FooterComponent } from './footer/footer.component';
 import { SocialmediaComponent } from './socialmedia/socialmedia.component';
-import { ProductsComponent } from './products/products.component';
-
-import { ShirtsComponent } from './products/shirts/shirts.component';
-import { TShirtsComponent } from './t-shirts/t-shirts.component';
-import { SportsComponent } from './sports/sports.component';
-import { HomePageComponent } from './home-page/home-page.component';
-
-
 
 
 @NgModule({
@@ -38,19 +30,7 @@ import { HomePageComponent } from './home-page/home-page.component';
     HomeComponent,
     BrandsComponent,
     FooterComponent,
-    SocialmediaComponent,
-    ProductsComponent,
-   
-    ShirtsComponent,
-   
-    TShirtsComponent,
-   
-    SportsComponent,
-   
-    HomePageComponent,
-   
-    
-    
+    SocialmediaComponent
   ],
   imports: [
     BrowserModule,
