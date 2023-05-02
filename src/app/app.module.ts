@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 import { BrandsComponent } from './brands/brands.component';
 import { FooterComponent } from './footer/footer.component';
 import { SocialmediaComponent } from './socialmedia/socialmedia.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { SocialmediaComponent } from './socialmedia/socialmedia.component';
     HomeComponent,
     BrandsComponent,
     FooterComponent,
-    SocialmediaComponent
+    SocialmediaComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
