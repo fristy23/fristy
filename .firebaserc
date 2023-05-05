@@ -1,0 +1,18 @@
+{
+  "targets": {
+    "fristy-20daa": {
+      "hosting": {
+        "fristy": [
+          "fristy-20daa"
+        ]
+      }
+    },
+    "fristy23-6d5b1": {
+      "hosting": {
+        "fristy": [
+          "fristy23-6d5b1"
+        ]
+      }
+    }
+  }
+}

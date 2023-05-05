@@ -15,6 +15,8 @@ import { HomeComponent } from './home/home.component';
 import { BrandsComponent } from './brands/brands.component';
 import { FooterComponent } from './footer/footer.component';
 import { SocialmediaComponent } from './socialmedia/socialmedia.component';
+ import {AngularFireModule} from '@angular/fire';
+ import { environment } from 'src/environments/environment';
 
 
 @NgModule({
@@ -36,7 +38,8 @@ import { SocialmediaComponent } from './socialmedia/socialmedia.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    AngularFireModule.initializeApp(environment.firebase),
   ],
   providers: [],
   bootstrap: [AppComponent]
