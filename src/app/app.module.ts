@@ -16,6 +16,8 @@ import { BrandsComponent } from './brands/brands.component';
 import { FooterComponent } from './footer/footer.component';
 import { SocialmediaComponent } from './socialmedia/socialmedia.component';
 
+import {environment} from 'src/environments/environment'  
+
 
 @NgModule({
   declarations: [
